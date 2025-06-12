@@ -8,10 +8,10 @@ function calculateChaiIngredients(numberOfCups) {
     const sugarPerCup = 2; 
 
     //Measurements for each constant
-    const totalWater = waterPerCup * numberOfCups;
-    const totalMilk = milkPerCup * numberOfCups;
-    const totalTeaLeaves = teaLeavesPerCup * numberOfCups;
-    const totalSugar = sugarPerCup * numberOfCups;
+    const totalWater = waterPerCup * numberOfCups; //ml
+    const totalMilk = milkPerCup * numberOfCups; //ml
+    const totalTeaLeaves = teaLeavesPerCup * numberOfCups; //ml
+    const totalSugar = sugarPerCup * numberOfCups;  //ml
      
     //Output results
   console.log(`\nTo make ${numberOfCups} cups of Kenyan Chai, you will need:`);
